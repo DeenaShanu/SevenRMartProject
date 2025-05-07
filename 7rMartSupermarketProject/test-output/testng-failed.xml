@@ -15,6 +15,7 @@
         <methods>
           <include name="initializeBrowser"/>
           <include name="addNewsInManageNewsModule"/>
+          <include name="searchAnyNews"/>
           <include name="driverCloseAndQuit"/>
         </methods>
       </class> <!-- sevenMartPackage.ManageNewsTest -->
