@@ -13,5 +13,14 @@
 	</classes>
 </test>
 
-
+<test name="EdgeTest">
+<parameter name="browsers" value="Edge"></parameter>
+	<classes>
+		<class name="sevenMartPackage.ManageNewsTest">
+			<methods>
+				<include name="addNewsInManageNewsModule"></include>
+			</methods>
+		</class>
+	</classes>
+</test>
 </suite>
