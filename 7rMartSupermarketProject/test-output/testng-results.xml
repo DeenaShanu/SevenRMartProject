@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-06T12:31:54 IST" name="Grouping" finished-at="2025-05-06T12:32:01 IST" duration-ms="7122">
+    <groups>
+      <group name="SmokeTest">
+        <method signature="LoginPageTest.verifyUserLoginWithValidCredentials()[pri:1, instance:sevenMartPackage.LoginPageTest@6adbc9d]" name="verifyUserLoginWithValidCredentials" class="sevenMartPackage.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyUserLoginWithValidUsernameAndInvalidPaswd()[pri:2, instance:sevenMartPackage.LoginPageTest@6adbc9d]" name="verifyUserLoginWithValidUsernameAndInvalidPaswd" class="sevenMartPackage.LoginPageTest"/>
+      </group> <!-- SmokeTest -->
+    </groups>
+    <test started-at="2025-05-06T12:31:54 IST" name="Grouping.xml" finished-at="2025-05-06T12:32:01 IST" duration-ms="7122">
+      <class name="sevenMartPackage.LoginPageTest">
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:sevenMartPackage.LoginPageTest@6adbc9d]" started-at="2025-05-06T12:31:54 IST" name="initializeBrowser" finished-at="2025-05-06T12:31:57 IST" duration-ms="2687" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="verifyUserLoginWithValidCredentials()[pri:1, instance:sevenMartPackage.LoginPageTest@6adbc9d]" started-at="2025-05-06T12:31:57 IST" name="verifyUserLoginWithValidCredentials" description="Verify whether user is able to login with valid credentials" finished-at="2025-05-06T12:31:59 IST" duration-ms="1699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserLoginWithValidCredentials -->
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:sevenMartPackage.LoginPageTest@6adbc9d]" started-at="2025-05-06T12:31:59 IST" name="initializeBrowser" finished-at="2025-05-06T12:32:00 IST" duration-ms="1951" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="verifyUserLoginWithValidUsernameAndInvalidPaswd()[pri:2, instance:sevenMartPackage.LoginPageTest@6adbc9d]" started-at="2025-05-06T12:32:00 IST" name="verifyUserLoginWithValidUsernameAndInvalidPaswd" description="Verify whether user is able to login with Valid username and invalid paswrd" finished-at="2025-05-06T12:32:01 IST" duration-ms="729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserLoginWithValidUsernameAndInvalidPaswd -->
+      </class> <!-- sevenMartPackage.LoginPageTest -->
+    </test> <!-- Grouping.xml -->
+  </suite> <!-- Grouping -->
+</testng-results>
