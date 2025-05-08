@@ -14,7 +14,7 @@ public class ExcelUtility {
 	static XSSFSheet s;
 	
 	public static String getStringData(int a, int b, String sheet) throws IOException {
-		f = new FileInputStream("C:\\Users\\shanu\\eclipse-workspace\\7rMartSupermarketProject\\src\\test\\resources\\TestData.xlsx");
+		f = new FileInputStream("C:\\Users\\shanu\\git\\SevenRMartProject\\7rMartSupermarketProject\\src\\test\\resources\\TestData.xlsx");
 		w = new XSSFWorkbook(f);
 		s = w.getSheet(sheet);
 		XSSFRow r = s.getRow(a);
@@ -24,7 +24,7 @@ public class ExcelUtility {
 	}
 	
 	public static String getIntegerData(int a, int b, String sheet) throws IOException {
-		f = new FileInputStream("C:\\Users\\shanu\\eclipse-workspace\\7rMartSupermarketProject\\src\\test\\resources\\TestData.xlsx");
+		f = new FileInputStream("C:\\Users\\shanu\\git\\SevenRMartProject\\7rMartSupermarketProject\\src\\test\\resources\\TestData.xlsx");
 		w = new XSSFWorkbook(f);
 		s = w.getSheet(sheet);
 		XSSFRow r = s.getRow(a);

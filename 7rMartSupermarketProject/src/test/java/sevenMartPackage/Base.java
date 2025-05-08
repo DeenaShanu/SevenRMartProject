@@ -56,7 +56,7 @@ public class Base {
 	  driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
   }
 
-  @AfterMethod
+  @AfterMethod(alwaysRun = true)
   public void driverCloseAndQuit(ITestResult iTestResult) throws IOException {
 
 		if (iTestResult.getStatus()==ITestResult.FAILURE) {

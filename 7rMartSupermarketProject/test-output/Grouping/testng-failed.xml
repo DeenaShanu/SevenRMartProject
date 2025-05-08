@@ -13,6 +13,7 @@
         <methods>
           <include name="initializeBrowser"/>
           <include name="verifyUserLoginWithValidCredentials"/>
+          <include name="driverCloseAndQuit"/>
           <include name="verifyUserLoginWithValidUsernameAndInvalidPaswd"/>
         </methods>
       </class> <!-- sevenMartPackage.LoginPageTest -->

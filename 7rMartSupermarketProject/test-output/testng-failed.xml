@@ -1,21 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Grouping]" guice-stage="DEVELOPMENT">
-  <parameter name="browsers" value="Chrome"/>
-  <test thread-count="5" name="Grouping.xml(failed)">
-    <groups>
-      <run>
-        <include name="SmokeTest"/>
-      </run>
-    </groups>
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="ChromeTest(failed)">
+    <parameter name="browsers" value="Chrome"/>
     <classes>
-      <class name="sevenMartPackage.LoginPageTest">
+      <class name="sevenMartPackage.AdminUsersTest">
         <methods>
           <include name="initializeBrowser"/>
-          <include name="verifyUserLoginWithValidCredentials"/>
-          <include name="verifyUserLoginWithValidUsernameAndInvalidPaswd"/>
+          <include name="addNewUser"/>
+          <include name="driverCloseAndQuit"/>
         </methods>
-      </class> <!-- sevenMartPackage.LoginPageTest -->
+      </class> <!-- sevenMartPackage.AdminUsersTest -->
     </classes>
-  </test> <!-- Grouping.xml(failed) -->
-</suite> <!-- Failed suite [Grouping] -->
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

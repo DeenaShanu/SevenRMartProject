@@ -3,12 +3,18 @@
 <suite name="Suite">
 
 <test name="ChromeTest">
+<!-- 
+<parameter name="meenu" value="Username"></parameter>
+<parameter name="test" value="Password"></parameter>
+-->
 <parameter name="browsers" value="Chrome"></parameter>
 	<classes>
-		<class name="sevenMartPackage.ManageNewsTest">
+		<class name="sevenMartPackage.AdminUsersTest">
+	
 			<methods>
-				<include name="addNewsInManageNewsModule"></include>
+				<include name="addNewUser"></include>
 			</methods>
+			
 		</class>
 	</classes>
 </test>

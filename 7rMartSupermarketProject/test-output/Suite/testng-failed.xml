@@ -4,13 +4,13 @@
   <test thread-count="5" name="ChromeTest(failed)">
     <parameter name="browsers" value="Chrome"/>
     <classes>
-      <class name="sevenMartPackage.ManageNewsTest">
+      <class name="sevenMartPackage.AdminUsersTest">
         <methods>
           <include name="initializeBrowser"/>
-          <include name="addNewsInManageNewsModule"/>
+          <include name="addNewUser"/>
           <include name="driverCloseAndQuit"/>
         </methods>
-      </class> <!-- sevenMartPackage.ManageNewsTest -->
+      </class> <!-- sevenMartPackage.AdminUsersTest -->
     </classes>
   </test> <!-- ChromeTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

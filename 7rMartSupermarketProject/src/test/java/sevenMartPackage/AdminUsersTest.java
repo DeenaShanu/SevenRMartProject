@@ -2,6 +2,7 @@ package sevenMartPackage;
 
 import java.io.IOException;
 import org.testng.Assert;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import constant.Constant;
@@ -9,20 +10,28 @@ import pages.AdminUsersPage;
 import pages.HomePage;
 import pages.LoginPage;
 import utilities.ExcelUtility;
+import utilities.FakerUtility;
 
 public class AdminUsersTest extends Base{
 	
 	public HomePage homePage;
-	public AdminUsersPage adminUsersPage;
+	//public FakerUtility fakerUtility;
 	
+	public AdminUsersPage adminUsersPage;
+ 
+
   @Test(description="Verify whether user is able to add a user")
-  public void addNewUser() throws IOException {
-	  
+//  @Parameters({"meenu","test"})
+  //public void addNewUser(String username,String password) throws IOException {
+	  public void addNewUser() throws IOException {
 	  String username = ExcelUtility.getStringData(0, 0, "LoginPage");
 	  String password = ExcelUtility.getStringData(0, 1, "LoginPage");
-	  
+
 	  
 	  String usr = ExcelUtility.getStringData(1, 0, "AdminUsers");
+	  //faker
+	//----  String fakeData = fakerUtility.getFakeFirstName();
+	  
 	  String pass_word = ExcelUtility.getStringData(1, 1, "AdminUsers");
 	  String user_type= ExcelUtility.getStringData(1, 2, "AdminUsers");
 	  
