@@ -21,7 +21,7 @@ public class HomePage {
 	@FindBy(xpath="//a[@href='https://groceryapp.uniqassosiates.com/admin/list-news']")private WebElement manageNews;
 	@FindBy(xpath="//a[@href='https://groceryapp.uniqassosiates.com/admin/list-sub-category']")private 
 	WebElement subCategoryModule;
-	@FindBy(xpath="(//a[@href='https://groceryapp.uniqassosiates.com/admin/list-product'])[4]")private WebElement manageProductTile;
+	@FindBy(xpath="(//a[@href='https://groceryapp.uniqassosiates.com/admin/list-product'])[3]")private WebElement manageProductTile;
 	
 	public HomePage clickUsernameLink() {
 		usrNameLink.click();

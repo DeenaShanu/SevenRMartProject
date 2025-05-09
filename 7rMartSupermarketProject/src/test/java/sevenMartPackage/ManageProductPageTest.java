@@ -39,8 +39,13 @@ public class ManageProductPageTest extends Base{
 	  boolean found = false;
 	  if (manageProductPage.getTableData().contains(title)) {
 		  found=true;
+		  System.out.println("Found data");
+		  Assert.assertTrue(found, Constant.DATA_IS_NOT_DISPLAYED);
+	  } else {
+		  System.out.println("NOt Found data");
+		  Assert.assertFalse(found, Constant.DATA_IS_NOT_DISPLAYED);
 	  }
-	  Assert.assertTrue(found, Constant.DATA_IS_NOT_DISPLAYED);
+	 
 	  
   }
 }

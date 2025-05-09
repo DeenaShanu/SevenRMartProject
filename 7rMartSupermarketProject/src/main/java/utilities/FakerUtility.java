@@ -16,7 +16,7 @@ public class FakerUtility {
 		return text;
 
 	}
-
+	
 	public String getFakeCityName() {
 
 		Faker faker = new Faker();
