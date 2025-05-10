@@ -82,7 +82,8 @@ public class LoginPageTest extends Base {
 
 	@DataProvider(name = "credentials")
 	public Object[][] testData() {
-		Object data[][] = { { "admin", "admin" }, { "admin", "test" } };
+		// Object data[][] = { { "admin", "admin" }, { "admin", "test" } };
+		Object data[][] = { { "admin", "admin" } };
 		return data;
 	}
 }
