@@ -4,16 +4,16 @@
 
 	<test name="ChromeTest">
 
-		<parameter name="meenu" value="Meenu"></parameter>
+		<parameter name="user_name" value="Meenu"></parameter>
 		<!-- 
 <parameter name="test" value="Password"></parameter>
 -->
 		<parameter name="browsers" value="Chrome"></parameter>
 		<classes>
-			<class name="sevenMartPackage.AdminUsersTest">
+			<class name="sevenMartPackage.LoginPageTest">
 
 				<methods>
-					<include name="searchAnyUserMethodWithArgument"></include>
+					<include name="verifyUserLoginWithValidCredentials"></include>
 				</methods>
 
 			</class>

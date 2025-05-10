@@ -92,7 +92,7 @@ public class AdminUsersTest extends Base {
 
 	}
 
-	@Parameters("meenu")
+	@Parameters("user_name")
 	@Test(description = "Verify whether user is able to search a user by passing an argument or parameter in  method")
 	public void searchAnyUserMethodWithArgument(String usernameToBeSearched) throws IOException {
 		String loginUsername = ExcelUtility.getStringData(0, 0, "LoginPage");
