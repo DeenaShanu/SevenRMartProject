@@ -15,6 +15,6 @@ public class ExtentReportsUtility {
 		extentReports.setSystemInfo("Name", "Athira");
 		return extentReports;
 
-  }
-	
+	}
+
 }

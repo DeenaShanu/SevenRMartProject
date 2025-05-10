@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test thread-count="5" name="Test">
-    <classes>
-      <class name="sevenMartPackage.LoginPageTest">
-      <!--
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="sevenMartPackage.LoginPageTest">
+				<!--
       <methods>
       <include name="verifyLoginCredentialsWithValidUsernameAndValidPaswd"></include>
-      <include name="verifyLoginCredentialsWithValidUsernameAndInvalidPaswd"></include>
-      <include name="verifyLoginCredentialsWithInvalidUsrnameAndValidPaswd"></include>
-      <include name="verifyLoginCredentialsWithInvalidUsrnameAndInvalidPasswd"></include>
+      <include
+				name="verifyLoginCredentialsWithValidUsernameAndInvalidPaswd"></include>
+      <include
+				name="verifyLoginCredentialsWithInvalidUsrnameAndValidPaswd"></include>
+      <include
+				name="verifyLoginCredentialsWithInvalidUsrnameAndInvalidPasswd"></include>
       </methods> 
       -->
-      </class>
-    </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+			</class>
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->

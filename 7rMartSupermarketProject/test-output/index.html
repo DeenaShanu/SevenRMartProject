@@ -104,7 +104,7 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="sevenMartPackage.AdminUsersTest" class="method navigator-link" hash-for-method="addNewUser">addNewUser</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="sevenMartPackage.AdminUsersTest" class="method navigator-link" hash-for-method="searchAnyUserMethodWithArgument(Meenu)">searchAnyUserMethodWithArgument(Meenu)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -127,11 +127,12 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="addNewUser">
-                  </a> <!-- addNewUser -->
-                  <span class="method-name">addNewUser</span>
+                  <a name="searchAnyUserMethodWithArgument(Meenu)">
+                  </a> <!-- searchAnyUserMethodWithArgument(Meenu) -->
+                  <span class="method-name">searchAnyUserMethodWithArgument</span>
+                  <span class="parameters">(Meenu)</span>
                   <em>
-(Verify whether user is able to add a user)                  </em>
+(Verify whether user is able to search a user by passing an argument or parameter in  method)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -147,11 +148,12 @@
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;ChromeTest&quot;&gt;
+    &lt;parameter name=&quot;meenu&quot; value=&quot;Meenu&quot;/&gt;
     &lt;parameter name=&quot;browsers&quot; value=&quot;Chrome&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;sevenMartPackage.AdminUsersTest&quot;&gt;
         &lt;methods&gt;
-          &lt;include name=&quot;addNewUser&quot;/&gt;
+          &lt;include name=&quot;searchAnyUserMethodWithArgument&quot;/&gt;
         &lt;/methods&gt;
       &lt;/class&gt; &lt;!-- sevenMartPackage.AdminUsersTest --&gt;
     &lt;/classes&gt;
@@ -195,9 +197,9 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'addNewUser')
+data.setCell(0, 1, 'searchAnyUserMethodWithArgument')
 data.setCell(0, 2, 'sevenMartPackage.AdminUsersTest')
-data.setCell(0, 3, 2265);
+data.setCell(0, 3, 2845);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -225,7 +227,7 @@ return data;
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">searchAnyUser</span>
                 <br/>
-                <span class="ignored-method-name">searchAnyUserMethodWithArgument</span>
+                <span class="ignored-method-name">addNewUser</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -243,12 +245,12 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">addNewUser</span>
-                <span class="method-start">2094 ms</span>
+                <span class="method-name">searchAnyUserMethodWithArgument(Meenu)</span>
+                <span class="method-start">2879 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">driverCloseAndQuit([TestResult name=addNewUser status=SUCCESS method=AdminUsersTest.addNewUser()[pri:0, instance:sevenM...)</span>
-                <span class="method-start">4361 ms</span>
+                <span class="method-name">driverCloseAndQuit([TestResult name=searchAnyUserMethodWithArgument status=SUCCESS method=AdminUsersTest.searchAnyUserM...)</span>
+                <span class="method-start">5727 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

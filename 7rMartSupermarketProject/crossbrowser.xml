@@ -2,25 +2,25 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
 
-<test name="ChromeTest">
-<parameter name="browsers" value="Chrome"></parameter>
-	<classes>
-		<class name="sevenMartPackage.ManageNewsTest">
-			<methods>
-				<include name="addNewsInManageNewsModule"></include>
-			</methods>
-		</class>
-	</classes>
-</test>
+	<test name="ChromeTest">
+		<parameter name="browsers" value="Chrome"></parameter>
+		<classes>
+			<class name="sevenMartPackage.ManageNewsTest">
+				<methods>
+					<include name="addNewsInManageNewsModule"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
 
-<test name="EdgeTest">
-<parameter name="browsers" value="Edge"></parameter>
-	<classes>
-		<class name="sevenMartPackage.ManageNewsTest">
-			<methods>
-				<include name="addNewsInManageNewsModule"></include>
-			</methods>
-		</class>
-	</classes>
-</test>
+	<test name="EdgeTest">
+		<parameter name="browsers" value="Edge"></parameter>
+		<classes>
+			<class name="sevenMartPackage.ManageNewsTest">
+				<methods>
+					<include name="addNewsInManageNewsModule"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
 </suite>

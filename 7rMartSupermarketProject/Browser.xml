@@ -2,20 +2,21 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
 
-<test name="ChromeTest">
-<!-- 
-<parameter name="meenu" value="Username"></parameter>
+	<test name="ChromeTest">
+
+		<parameter name="meenu" value="Meenu"></parameter>
+		<!-- 
 <parameter name="test" value="Password"></parameter>
 -->
-<parameter name="browsers" value="Chrome"></parameter>
-	<classes>
-		<class name="sevenMartPackage.AdminUsersTest">
-	
-			<methods>
-				<include name="addNewUser"></include>
-			</methods>
-			
-		</class>
-	</classes>
-</test>
+		<parameter name="browsers" value="Chrome"></parameter>
+		<classes>
+			<class name="sevenMartPackage.AdminUsersTest">
+
+				<methods>
+					<include name="searchAnyUserMethodWithArgument"></include>
+				</methods>
+
+			</class>
+		</classes>
+	</test>
 </suite>

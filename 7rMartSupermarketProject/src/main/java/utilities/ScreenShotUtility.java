@@ -11,7 +11,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.io.FileHandler;
 
 public class ScreenShotUtility {
-	public void getScreenshot(WebDriver driver,String failedTestCase) throws IOException
+	public void getScreenshot(WebDriver driver, String failedTestCase) throws IOException
 
 	{
 
@@ -38,6 +38,5 @@ public class ScreenShotUtility {
 		FileHandler.copy(screenShot, finalDestination);
 
 	}
-
 
 }
